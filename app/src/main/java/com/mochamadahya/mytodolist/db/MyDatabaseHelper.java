@@ -40,7 +40,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper{
         onCreate(db);
     }
 
-    //fungsi untuk menyimpan data
+        //fungsi untuk menyimpan data
     public long simpanData(String nama, String deskripsi,String kategori){
         // akses database untuk menambah data
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();

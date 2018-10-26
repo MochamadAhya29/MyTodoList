@@ -10,6 +10,8 @@ public class TodoJava {
     public static final String COLUMN_WAKTU = "waktu";
     public static final String COLUMN_KATEGORI = "kategori";
 
+    // Selanjutnya kode yang lain
+
 
     // Constructor untuk memasukkan data ke dalam class model ini
     public TodoJava(int id, String nama, String deskripsi, String waktu, String kategori) {
